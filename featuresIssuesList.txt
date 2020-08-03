@@ -1,0 +1,20 @@
+---------------------------------------------
+TO DO
+---------------------------------------------
+add my picture to top-left page on index.html
+add blirb about me on index.html page
+show/hide navbar based on mouse position
+    navbar at top when scrolled to the top
+    navbar at left when scrolled down
+get better "desk" picture
+add "page turn" on scroll
+    also advance on click
+add clickable fields over objects that represent me
+
+**Mobile Friendly**
+
+---------------------------------------------
+ISSUES
+---------------------------------------------
+
+*none known
