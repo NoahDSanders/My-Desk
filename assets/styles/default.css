@@ -4,14 +4,30 @@ body {
 	background-size: cover;
 }
 
+.nav-container{
+	position:fixed;
+	width: 10%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
 nav {
 	opacity: .88;
 	background: #111;
 	position:fixed;
-	width: 11%;
+	width: 10%;
 	height: 100%;
 	top: 0;
 	left: 0;
+	transform: translateX(-100%);
+	transition: transform .5s cubic-bezier(.4,0,.2,1);
+}
+
+
+.nav-container:hover nav{
+	transform: translateX(0);
+	transition: transform .5s cubic-bezier(.4,0,.2,1);
 }
 
 nav img {

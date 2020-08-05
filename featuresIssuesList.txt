@@ -10,6 +10,7 @@ get better "desk" picture
 add "page turn" on scroll
     also advance on click
 add clickable fields over objects that represent me
+add functionality to "contact me" page
 
 **Mobile Friendly**
 
