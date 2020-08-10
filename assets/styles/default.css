@@ -1,32 +1,41 @@
-body {
+*{
 	margin: 0;
+	padding: 0;
+}
+
+body {
 	background-image: url("/assets/img/background.jpg");
-	background-size: cover;
+	background-size: 100%;
 }
 
 .nav-container{
 	position:fixed;
-	width: 10%;
-	height: 100%;
+	width: 100%;
+	height: 10%;
 	top: 0;
 	left: 0;
 }
 
 nav {
+	display: flex;
+	justify-content: flex-start;
 	opacity: .88;
 	background: #111;
 	position:fixed;
-	width: 10%;
-	height: 100%;
+	width: 100%;
+	height: 10%;
 	top: 0;
 	left: 0;
-	transform: translateX(-100%);
+	transform: translateY(-100%);
 	transition: transform .5s cubic-bezier(.4,0,.2,1);
 }
 
+nav ul {
+	display: flex;
+}
 
 .nav-container:hover nav{
-	transform: translateX(0);
+	transform: translateY(0);
 	transition: transform .5s cubic-bezier(.4,0,.2,1);
 }
 

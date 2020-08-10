@@ -11,6 +11,7 @@ add "page turn" on scroll
     also advance on click
 add clickable fields over objects that represent me
 add functionality to "contact me" page
+video background that "pans" up and down between desk and tv between pages
 
 **Mobile Friendly**
 
@@ -18,4 +19,4 @@ add functionality to "contact me" page
 ISSUES
 ---------------------------------------------
 
-*none known
+navbar content overflows out of the navbar
