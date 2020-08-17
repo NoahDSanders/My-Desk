@@ -1,0 +1,57 @@
+body {
+    height: 100vh;
+    width: 177.9vh;
+	background-image: url("/assets/img/desk.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.projectview {
+    position: absolute;
+    width: 20.7cm;
+    height: 15cm;
+    top: 12cm;
+    left: 0;
+
+}
+
+.page {
+	top: 3cm;
+	left: 7cm;
+	padding: 1cm;
+	position: absolute;
+	background: 100% url("/assets/img/page.png");
+	margin: 2.5cm;
+	width: 19cm;
+	height: 25cm;
+    transform: 
+        perspective(100px)
+        rotateX(5deg)
+        scale3d(.5,.30,.5);
+    display: none;
+}
+
+.computer-screen{
+    opacity: .3;
+    background-color: black;
+    position: absolute;
+    right: 4%;
+    top: 166px;
+    width: 300px;
+    height: 27%;
+    transform:
+    rotatez(7deg);
+    display: none;
+}
+
+.music-player{
+    
+}
+
+.music-player iframe{
+    height: 220px;
+    width: 250px;
+    display: none;
+}
