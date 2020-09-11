@@ -1,8 +1,8 @@
 ---------------------------------------------
 TO DO
 ---------------------------------------------
-add my picture to top-left page on index.html
-add blirb about me on index.html page
+add my picture to top-left to page element on index.html
+add blirb about me on index.html page element
 show/hide navbar based on mouse position
     navbar at top when scrolled to the top
     navbar at left when scrolled down
@@ -12,6 +12,7 @@ add "page turn" on scroll
 add clickable fields over objects that represent me
 add functionality to "contact me" page
 video background that "pans" up and down between desk and tv between pages
+style scrollbar to "transparent dark"
 
 **Mobile Friendly**
 
