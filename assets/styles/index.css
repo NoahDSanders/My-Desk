@@ -4,6 +4,7 @@ html, body, main{
 }
 
 main {
+    width: 177.6vh;
 	background-image: url("/assets/img/desk.jpg");
 	background-repeat: no-repeat;
     background-size: cover;
@@ -17,8 +18,7 @@ main {
             width: 100%;
             height: 56.2vw;
         }
-    }
-    
+    }  
 }
 
 .projectview {
@@ -27,6 +27,7 @@ main {
     height: 15cm;
     top: 12cm;
     left: 0;
+
 }
 
 .page {
