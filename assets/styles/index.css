@@ -41,14 +41,13 @@ main {
 
 .computer-screen{
     position: absolute;
-    background-color: black;
     float: right;
-    right: 3.8%;
+    right: 4.2%;
     top: 25%;
-    width: 27.5%;
-    height: 26.5%;
+    width: 27%;
+    height: 26%;
     transform: rotatez(7deg);
-    
+    padding-bottom: .5%;
 }
 
 .music-player #spotify{
