@@ -10,6 +10,10 @@ main {
     background-size: cover;
 }
 
+.nav-container:hover .os-scrollbar-vertical {
+    background: rgba(255, 0, 0, 0.3);
+}
+
 .projectview {
     position: absolute;
     width: 20.7cm;
@@ -37,19 +41,18 @@ main {
 
 .computer-screen{
     position: absolute;
-    opacity: .3;
     background-color: black;
     float: right;
-    right: 4%;
-    top: 166px;
-    width: 300px;
-    height: 27%;
+    right: 3.8%;
+    top: 25%;
+    width: 27.5%;
+    height: 26.5%;
     transform: rotatez(7deg);
     
 }
 
 .music-player iframe{
-    height: 220px;
-    width: 250px;
-    display: none;
+    height: 5%;
+    width: 100%;
+    
 }
